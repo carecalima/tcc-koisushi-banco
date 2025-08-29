@@ -105,7 +105,7 @@ body {
 
 /* Estilos do carrinho */
 .cart-button {
-    background-color: #ff5252;
+    background-color: #ff2626;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -116,7 +116,7 @@ body {
 }
 
 .add-to-rodizio {
-    background-color: #ff5252;
+    background-color: #7b1414;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -127,7 +127,7 @@ body {
 }
 
 .cart-button:hover {
-    background-color: #ff3232;
+    background-color: #7b1414;
 }
 
 /* Modal do carrinho */
@@ -200,7 +200,7 @@ body {
     cursor: pointer;
     font-size: 16px;
     margin-left: 10px;
-    color: #ff5252;
+    color: #7b1414;
 }
 
 .cart-total {
@@ -231,12 +231,12 @@ body {
 }
 
 .clear-cart {
-    background-color: #f44336;
+    background-color: #7b1414;
     color: white;
 }
 
 .clear-cart:hover {
-    background-color: #d32f2f;
+    background-color: #7b1414;
 }
 
 .add-to-cart {
@@ -345,4 +345,20 @@ body {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+.cart-actions .checkout {
+    background-color: #7b1414;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 24px;
+    margin-top: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+.cart-actions .checkout:hover {
+    background-color: #a32d2d;
 }
