@@ -15,44 +15,79 @@
         </div>
     </header>
 
+
+    <!-- Botão Chamar Garçom -->
+    <div style="text-align:center; margin: 20px 0;">
+        <button id="chamarGarcomBtn" style="padding: 12px 32px; font-size: 1.2em; background-color: #7b1414; color: #fff; border: none; border-radius: 8px; cursor: pointer;">
+            Chamar um garçom
+        </button>
+    </div>
+<!-- ...existing code... -->
+
     <div class="content">
         <section class="categories">
-            <h2>Selecione →</h2>
-            <div class="category-scroll">
-                <div class="category">
-                    <img src="../imagens/ceviche.jpg" alt="Entradas">
-                    <span>Entradas</span>
-                </div>
-                <div class="category">
-                    <img src="../imagens/guioza.jpg" alt="Pratos Quentes">
-                    <span>Pratos Quentes</span>
-                </div>
-                <div class="category">
-                    <img src="../imagens/variados.jpg" alt="Sushis">
-                    <span>Sushis</span>
-                </div>
-                <div class="category">
-                    <img src="../imagens/temakijpg.jpg" alt="Temakis">
-                    <span>Temakis</span>
-                </div>
-                <div class="category">
-                    <img src="../imagens/coca.jpg" alt="Bebidas">
-                    <span>Bebidas</span>
-                </div>
-                <div class="category">
-                    <img src="../imagens/vinhos.jpg" alt="Vinhos">
-                    <span>Vinhos</span>
-                </div>
-                <div class="category">
-                    <img src="../imagens/drink.jpg" alt="Drinks">
-                    <span>Drinks</span>
-                </div>
-                <div class="category">
-                    <img src="../imagens/bebidasalco.jpg" alt="Bebidas Alcoólicas">
-                    <span>Bebidas Alcoólicas</span>
-                </div>
-            </div>
-        </section>
+    <h2>Selecione →</h2>
+    <div class="category-scroll">
+        <div class="category">
+            <img src="../imagens/ceviche.jpg" alt="Entradas">
+            <a href="#entradas">Entradas</a>
+        </div>
+        <div class="category">
+            <img src="../imagens/guioza.jpg" alt="Pratos Quentes">
+            <a href="#pratos-quentes">Pratos Quentes</a>
+        </div>
+        <div class="category">
+            <img src="../imagens/variados.jpg" alt="Sushis">
+            <a href="#sushis">Sushis</a>
+        </div>
+        <div class="category">
+            <img src="../imagens/temakijpg.jpg" alt="Temakis">
+            <a href="#temakis">Temakis</a>
+        </div>
+        <div class="category">
+            <img src="../imagens/coca.jpg" alt="Bebidas">
+            <a href="#bebidas">Bebidas</a>
+        </div>
+        <div class="category">
+            <img src="../imagens/vinhos.jpg" alt="Vinhos">
+            <a href="#vinhos">Vinhos</a>
+        </div>
+        <div class="category">
+            <img src="../imagens/drink.jpg" alt="Drinks">
+            <a href="#drinks">Drinks</a>
+        </div>
+        <div class="category">
+            <img src="../imagens/bebidasalco.jpg" alt="Bebidas Alcoólicas">
+            <a href="#bebidas-alcoolicas">Bebidas Alcoólicas</a>
+        </div>
+    </div>
+</section>
+<!-- ...existing code... -->
+<section class="menu-section">
+    <h3 id="entradas">Entradas</h3>
+    <!-- ...entradas... -->
+
+    <h3 id="pratos-quentes">Pratos quentes</h3>
+    <!-- ...pratos quentes... -->
+
+    <h3 id="sushis">Sushis</h3>
+    <!-- ...sushis... -->
+
+    <h3 id="temakis">Temakis</h3>
+    <!-- ...temakis... -->
+
+    <h3 id="bebidas">Bebidas</h3>
+    <!-- ...bebidas... -->
+
+    <h3 id="vinhos">Vinhos</h3>
+    <!-- ...vinhos... -->
+
+    <h3 id="drinks">Drinks</h3>
+    <!-- ...drinks... -->
+
+    <h3 id="bebidas-alcoolicas">Bebidas Alcoólicas</h3>
+    <!-- ...bebidas alcoólicas... -->
+</section>
 
         <section class="menu-section">
             <h3>Entradas</h3>
@@ -412,6 +447,11 @@
 </div>
         </section>
     </div>
-</body>
+<script>
+    document.getElementById('chamarGarcomBtn').onclick = function() {
+        alert('Um garçom foi chamado! Por favor, aguarde.');
+    };
+</script>
+    </body>
 <script src="../js/rodizio.js"></script>
 </html>
