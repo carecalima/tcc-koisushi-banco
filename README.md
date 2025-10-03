@@ -13,6 +13,9 @@ Para isso, o sistema inclui uma funcionalidade de alerta: quando o cliente solic
 ![alt text](diagramadeclasses.jpeg)
 ![alt text](diagrama.jpeg)
 
+## Quadro Kanban
+![alt text](kanban.jpeg)
+
 ---
  **Autores:** Dahra Fagionato, Nicole Santos, Pedro Lima 
 
