@@ -9,8 +9,10 @@ O principal objetivo do projeto é **reduzir o desperdício de comida durante o 
 Para isso, o sistema inclui uma funcionalidade de alerta: quando o cliente solicita mais de 5 unidades de um mesmo item, o tablet exibe uma mensagem de aviso para que ele confirme se realmente deseja aquela quantidade.
 
 ## Diagramas
-
+![alt text](merder.jpeg)
+![alt text](diagramadeclasses.jpeg)
 
 ---
  **Autores:** Dahra Fagionato, Nicole Santos, Pedro Lima 
+
  **Ano:** 2025
