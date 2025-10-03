@@ -11,6 +11,7 @@ Para isso, o sistema inclui uma funcionalidade de alerta: quando o cliente solic
 ## Diagramas
 ![alt text](merder.jpeg)
 ![alt text](diagramadeclasses.jpeg)
+![alt text](diagrama.jpeg)
 
 ---
  **Autores:** Dahra Fagionato, Nicole Santos, Pedro Lima 
